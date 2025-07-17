@@ -1,0 +1,356 @@
+[
+  {
+    "id": "HUMA 1179",
+    "nombre": "COMUNICACIÓN I",
+    "ciclo": 1,
+    "requisitos": []
+  },
+  {
+    "id": "CIEN 744",
+    "nombre": "MATEMÁTICA",
+    "ciclo": 1,
+    "requisitos": []
+  },
+  {
+    "id": "ARQU 328",
+    "nombre": "GEOMETRÍA DESCRIPTIVA",
+    "ciclo": 1,
+    "requisitos": []
+  },
+  {
+    "id": "ARQU 330",
+    "nombre": "TALLER DE DISEÑO BÁSICO 0",
+    "ciclo": 1,
+    "requisitos": []
+  },
+  {
+    "id": "ARQU 329",
+    "nombre": "REPRESENTACIÓN ARQUITECTÓNICA I",
+    "ciclo": 1,
+    "requisitos": []
+  },
+  {
+    "id": "HUMA 900",
+    "nombre": "METODOLOGÍA DEL APRENDIZAJE UNIVERSITARIO",
+    "ciclo": 1,
+    "requisitos": []
+  },
+  {
+    "id": "HUMA 1180",
+    "nombre": "COMUNICACIÓN II",
+    "ciclo": 2,
+    "requisitos": ["HUMA 1179"]
+  },
+  {
+    "id": "CIEN 775",
+    "nombre": "FÍSICA",
+    "ciclo": 2,
+    "requisitos": ["CIEN 744"]
+  },
+  {
+    "id": "ARQU 332",
+    "nombre": "TALLER DE DISEÑO BÁSICO I",
+    "ciclo": 2,
+    "requisitos": ["ARQU 330"]
+  },
+  {
+    "id": "ARQU 331",
+    "nombre": "REPRESENTACIÓN ARQUITECTÓNICA II",
+    "ciclo": 2,
+    "requisitos": ["ARQU 329"]
+  },
+  {
+    "id": "HUMA 1181",
+    "nombre": "FILOSOFÍA Y PENSAMIENTO CRÍTICO",
+    "ciclo": 2,
+    "requisitos": []
+  },
+  {
+    "id": "CIEN 745",
+    "nombre": "RECURSOS DIGITALES",
+    "ciclo": 2,
+    "requisitos": []
+  },
+  {
+    "id": "ARQU 335",
+    "nombre": "TECNOLOGÍA I",
+    "ciclo": 3,
+    "requisitos": ["CIEN 775"]
+  },
+  {
+    "id": "ARQUI 280",
+    "nombre": "ORIENTACIÓN ESTRUCTURAL Y CONSTRUCTIVA",
+    "ciclo": 3,
+    "requisitos": ["CIEN 775","ARQU 328"]
+  },
+  {
+    "id": "ARQU 334",
+    "nombre": "TALLER DE DISEÑO INTERMEDIO II",
+    "ciclo": 3,
+    "requisitos": ["ARQU 332", "ARQU 328", "ARQU 331"]
+  },
+  {
+    "id": "ARQU 333",
+    "nombre": "PRESENTACIÓN DE PROYECTOS",
+    "ciclo": 3,
+    "requisitos": ["ARQU 331"]
+  },
+  {
+    "id": "HUMA 1182",
+    "nombre": "REALIDAD NACIONAL Y GLOBAL",
+    "ciclo": 3,
+    "requisitos": []
+  },
+  {
+    "id": "ARQU 134",
+    "nombre": "HISTORIA DE LA ARQUITECTURA I",
+    "ciclo": 3,
+    "requisitos": []
+  },
+  {
+    "id": "ARQU 338",
+    "nombre": "CONSTRUCCIÓN I",
+    "ciclo": 4,
+    "requisitos": ["ARQU 335"]
+  },
+  {
+    "id": "ARQU 337",
+    "nombre": "TALLER DE DISEÑO INTERMEDIO III",
+    "ciclo": 4,
+    "requisitos": ["ARQU 334"]
+  },
+  {
+    "id": "ARQU 336",
+    "nombre": "TALLER DE URBANISMO I",
+    "ciclo": 4,
+    "requisitos": ["HUMA 1182"]
+  },
+  {
+    "id": "ARQU 136",
+    "nombre": "HISTORIA DE LA ARQUITECTURA II",
+    "ciclo": 4,
+    "requisitos": ["ARQU 134"]
+  },
+  {
+    "id": "HUMA 1184",
+    "nombre": "ÉTICA, CIDADANÍA E INCLUSIÓN",
+    "ciclo": 4,
+    "requisitos": []
+  },
+  {
+    "id": "HUMA 1183",
+    "nombre": "VIGENCIA Y TRASCENDENCIA DEL PENSAMIENTO DE ANTENGA ORREGO",
+    "ciclo": 4,
+    "requisitos": []
+  },
+  {
+    "id": "ARQU 342",
+    "nombre": "TECNOLOGÍA II",
+    "ciclo": 5,
+    "requisitos": ["ARQU 338"]
+  },
+  {
+    "id": "ARQU 343",
+    "nombre": "ESTRUCTURA I",
+    "ciclo": 5,
+    "requisitos": ["ARQU 280"]
+  },
+  {
+    "id": "ARQU 341",
+    "nombre": "TALLER DE DISEÑO INTERMEDIO IV",
+    "ciclo": 5,
+    "requisitos": ["ARQU 337","ARQU 280", "ARQU 333"]
+  },
+  {
+    "id": "ARQU 339",
+    "nombre": "MODELADO BIM",
+    "ciclo": 5,
+    "requisitos": ["ARQU 333"]
+  },
+  {
+    "id": "ARQU 340",
+    "nombre": "TALLER DE URBANISMO II",
+    "ciclo": 5,
+    "requisitos": ["ARQU 336"]
+  },
+  {
+    "id": "CIEN 746",
+    "nombre": "MEDIO AMBIENTE Y DESARROLLO SOSTENIBLE",
+    "ciclo": 5,
+    "requisitos": []
+  },
+  {
+    "id": "ARQU 347",
+    "nombre": "CONSTRUCCIÓN II",
+    "ciclo": 6,
+    "requisitos": ["ARQU 342"]
+  },
+  {
+    "id": "ARQU 346",
+    "nombre": "TALLER DE DISEÑO AVANZADO V",
+    "ciclo": 6,
+    "requisitos": ["ARQU 340", "ARQU 341", "ARQU 338"]
+  },
+  {
+    "id": "ARQU 345",
+    "nombre": "TALLER DE URBANISMO III",
+    "ciclo": 6,
+    "requisitos": ["ARQU 340"]
+  },
+  {
+    "id": "ARQU 344",
+    "nombre": "HISTORIA DE LA ARQUITECTURA III",
+    "ciclo": 6,
+    "requisitos": ["ARQU 136"]
+  },
+  {
+    "id": "HUMA 1185",
+    "nombre": "METODOLOGÍA DE LA INVESTIGACIÓN CIENTÍFICA",
+    "ciclo": 6,
+    "requisitos": []
+  },
+  {
+    "id": "ARQU 355",
+    "nombre": "CONSTRUCCIÓN III",
+    "ciclo": 7,
+    "requisitos": ["ARQU 347"]
+  },
+  {
+    "id": "ARQU 354",
+    "nombre": "ESTRUCTURA II",
+    "ciclo": 7,
+    "requisitos": ["ARQU 343"]
+  },
+  {
+    "id": "ARQU 353",
+    "nombre": "TALLER DE DISEÑO AVANZADO VI",
+    "ciclo": 7,
+    "requisitos": ["ARQU 346","ARQU 339"]
+  },
+  {
+    "id": "ARQU 352",
+    "nombre": "TALLER DE URBANISMO IV",
+    "ciclo": 7,
+    "requisitos": ["ARQU 345"]
+  },
+  {
+    "id": "ARQU 351",
+    "nombre": "HISTORIA DE LA ARQUITECTURA IV",
+    "ciclo": 7,
+    "requisitos": ["ARQU 344"]
+  },
+  {
+    "id": "CIEN 747",
+    "nombre": "TALLER DE CREATIVIDAD, INNOVACIÓN Y EMPRENDIMIENTO",
+    "ciclo": 7,
+    "requisitos": []
+  },
+  {
+    "id": "ARQU 360",
+    "nombre": "TALLER PREPROFESIONAL DE CONSTRUCCIÓN SOSTENIBLE",
+    "ciclo": 8,
+    "requisitos": ["ARQU 355"]
+  },
+  {
+    "id": "ARQU 357",
+    "nombre": "TALLER DE DISEÑO AVANZADO VII",
+    "ciclo": 8,
+    "requisitos": ["ARQU 353", "ARQU 352"]
+  },
+  {
+    "id": "ARQU 359",
+    "nombre": "TALLER PREPROFESIONAL DE CONSERVACIÓN DEL PATRIMONIO CONSTRUIDO",
+    "ciclo": 8,
+    "requisitos": ["ARQU 351"]
+  },
+  {
+    "id": "ARQU 356",
+    "nombre": "PROYECTO DE INVESTIGACIÓN",
+    "ciclo": 8,
+    "requisitos": ["HUMA 1185"]
+  },
+  {
+    "id": "ARQU 370",
+    "nombre": "GESTIÓN DE PROYECTOS",
+    "ciclo": 9,
+    "requisitos": ["ARQU 355"]
+  },
+  {
+    "id": "ARQU 366",
+    "nombre": "TALLER DE INVESTIGACIÓN EN ESTRUCTURA Y TECNOLOGÍA I",
+    "ciclo": 9,
+    "requisitos": ["ARQU 354", "ARQU 360", "ARQU 356"]
+  },
+  {
+    "id": "ARQU 369",
+    "nombre": "PRÁCTICA PREPROFESIONAL SUPERVISADA",
+    "ciclo": 9,
+    "requisitos": ["ARQU 353"]
+  },
+  {
+    "id": "ARQU 368",
+    "nombre": "TRABAJO DE FIN DE CARRERA I",
+    "ciclo": 9,
+    "requisitos": ["ARQU 356", "ARQU 357", "ARQU 354"]
+  },
+  {
+    "id": "ARQU 367",
+    "nombre": "TESIS I",
+    "ciclo": 9,
+    "requisitos": ["ARQU 356"]
+  },
+  {
+    "id": "ARQU 365",
+    "nombre": "TALLER DE INVESTIGACIÓN EN URBANISMO I",
+    "ciclo": 9,
+    "requisitos": ["ARQU 352", "ARQU 356"]
+  },
+  {
+    "id": "ARQU 364",
+    "nombre": "TALLER DE INVESTIGACIÓN EN HISTORIA Y PATRIMONIO CONSTRUIDO I",
+    "ciclo": 9,
+    "requisitos": ["ARQU 359", "ARQU 356"]
+  },
+  {
+    "id": "ARQU 358",
+    "nombre": "DEONTOLOGÍA PROFESIONAL",
+    "ciclo": 9,
+    "requisitos": ["ARQU 353"]
+  },
+  {
+    "id": "ARQU 376",
+    "nombre": "TALLER DE INVESTIGACIÓN EN ESTRUCTURA Y TECNOLOGÍA II",
+    "ciclo": 10,
+    "requisitos": ["ARQU 366"]
+  },
+  {
+    "id": "ARQU 378",
+    "nombre": "TRABAJO DE FIN DE CARRERA II",
+    "ciclo": 10,
+    "requisitos": ["ARQU 367", "ARQU 368"]
+  },
+  {
+    "id": "ARQU 377",
+    "nombre": "TESIS II",
+    "ciclo": 10,
+    "requisitos": ["ARQU 367", "ARQU 368"]
+  },
+  {
+    "id": "ARQU 375",
+    "nombre": "TALLER DE INVESTIGACIÓN EN URBANISMO II",
+    "ciclo": 10,
+    "requisitos": ["ARQU 365"]
+  },
+  {
+    "id": "ARQU 379",
+    "nombre": "TALLER DE INGENIERÍA DE PROYECTOS",
+    "ciclo": 10,
+    "requisitos": ["ARQU 368", "ARQU 367"]
+  },
+  {
+    "id": "ARQU 374",
+    "nombre": "TALLER DE INVESTIGACIÓN EN HISTORIA Y PATRIMONIO CONSTRUIDO II",
+    "ciclo": 10,
+    "requisitos": ["ARQU 364"]
+  }
+]
