@@ -1,10 +1,10 @@
 :root {
   --fondo: #0a0a0a;         /* Negro profundo con un toque de gris */
   --texto: #f0f0f0;         /* Blanco ligeramente gris para no quemar la vista */
-  --aprobado: #1c1c1c;      /* Gris asfalto */
-  --pendiente: #111111;     /* Negro con un toque de diferencia sutil */
-  --desbloqueado: #3d3d3d;  /* Gris plomo (mejor contraste que #464646) */
-  --borde: #2a2a2a;         /* Borde oscuro, más definido */
+  --aprobado: #6891b0;      /* Gris asfalto */
+  --pendiente: #5d6e94;     /* Negro con un toque de diferencia sutil */
+  --desbloqueado: #5e4f75;  /* Gris plomo (mejor contraste que #464646) */
+  --borde: #231a3d;         /* Borde oscuro, más definido */
 }
 
 body {
