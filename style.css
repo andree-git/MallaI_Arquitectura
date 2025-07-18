@@ -1,12 +1,13 @@
 :root {
-  --fondo: #2B2D3A;         /* Gris azulado oscuro (moderno y neutro) */
-  --texto: #F8F8F8;         /* Blanco puro para claridad */
-  --aprobado: #8C9CA6;      /* Gris azulado medio (profesional y sereno) */
-  --pendiente: #A3969C;     /* Rosado grisáceo (suave y sutil) */
-  --desbloqueado: #BF8C88;  /* Rosado quemado/terracota suave (cálido y distintivo) */
-  --borde: #47495B;         /* Gris oscuro para un borde definido */
-  --punto-fondo-alternativo: #7A7F93; /* Un gris medio con un toque cálido para el "punto" */
+  --fondo: #2A1B1E;                /* Rosa oscuro profundo (fondo general) */
+  --texto: #FDECF0;               /* Rosa casi blanco (texto claro) */
+  --aprobado: #D88C9A;            /* Rosa medio (estado aprobado) */
+  --pendiente: #E1A6B1;           /* Rosa pastel grisáceo (estado pendiente) */
+  --desbloqueado: #F2B6C1;        /* Rosa claro (estado desbloqueado) */
+  --borde: #5B2B36;               /* Borde rosa oscuro (para separar bien) */
+  --punto-fondo-alternativo: #C47C8E; /* Alternativa rosada (para elementos de contraste) */
 }
+
 
 body {
   background-color: var(--fondo);
@@ -27,7 +28,7 @@ body::before {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(122, 127, 147, 0.25) 0%, transparent 30%);
+  background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(173, 110, 144, 0.25)  0%, transparent 30%);
   mix-blend-mode: screen;
   z-index: 0;
   transition: background-position 0.05s;
@@ -132,3 +133,25 @@ h1 {
 .over_Y::-webkit-scrollbar-thumb:hover {
   background-color: var(--aprobado);
 }
+
+.tooltip-curso {
+  display: none;
+  position: fixed; /* Cambiado de absolute a fixed */
+  left: 0;
+  top: 0;
+  transform: none; /* Se sobreescribe en JS */
+  background: #222;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  z-index: 1000;
+  white-space: pre-line;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+}
+
+.ramo {
+  position: relative; /* Para que el tooltip se posicione respecto al curso */
+}
+
